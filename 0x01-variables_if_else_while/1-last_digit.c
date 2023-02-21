@@ -4,7 +4,7 @@
 
 /**
  * main - '1-last_digit.c'
- * Description: program will assign a random number to the variable n each time it is executed
+ * Description: Program print a random number each time executed
  * Return: 0 (Success)
  */
 int main(void)
