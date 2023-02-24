@@ -1,4 +1,5 @@
-#include "main"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * _isupper - uppercase letters
@@ -7,8 +8,11 @@
  * Return: 0 or 1
  */
 
-int _isupper(int c)
+int _isupper(int c);
+
 {
+ int c;
+
 	if (c >= 'A' && c <= 'Z')
 		return (1);
 	else
