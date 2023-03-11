@@ -5,7 +5,7 @@
  * main - prints the name of the program
  * @argc: number of arguments
  * @argv: array of arguments
- *
+ * Description: prints a name
  * REturn: Always 0 (Success)
  */
 
