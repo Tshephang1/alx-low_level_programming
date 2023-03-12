@@ -15,7 +15,5 @@ void _print_rev_recursion(char *s)
 	}
 	s++;
 	_print_rev_recursion(s);
-	_print_rev_recursion("\nFirst, solve the problem. Then, write the code");
-	_print_rev_recursion("\nTalk is cheap. Show me the code");
 	_putchar(*s);
 }
