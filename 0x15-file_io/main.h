@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
+#define BUFSIZE 1006;
 
 int _putchar(char c);
 ssize_t read_textfile(const char *filename, size_t letters);
